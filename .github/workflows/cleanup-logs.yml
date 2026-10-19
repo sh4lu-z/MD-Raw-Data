@@ -1,0 +1,44 @@
+name: Cleanup Expired Protect Logs
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Remove logs older than 1 hour
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const file = 'protected_numbers.json';
+            if (!fs.existsSync(file)) return;
+
+            const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+            const oneHourAgo = Date.now() - (60 * 60 * 1000);
+
+            if (Array.isArray(data.logs)) {
+              const prevLen = data.logs.length;
+              data.logs = data.logs.filter(l => l.timestamp > oneHourAgo);
+              if (data.logs.length !== prevLen) {
+                fs.writeFileSync(file, JSON.stringify(data, null, 2), 'utf8');
+              }
+            }
+
+      - name: Commit if modified
+        run: |
+          git config user.name "CIPHER-MD System"
+          git config user.email "no-reply@s4z.top"
+          if [[ -n $(git status -s) ]]; then
+            git add protected_numbers.json
+            git commit -m "Auto-clean expired protection logs [skip ci]"
+            git push
+          fi
