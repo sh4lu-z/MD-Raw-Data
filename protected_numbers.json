@@ -4,12 +4,5 @@
   "hashes": [
     "57e2421bbddaabb88e8cd9dcd0fdb8f04855566738d63a1c147bb9cbf66b69f5"
   ],
-  "logs": [
-    {
-      "ip": "03b14f8576cc3e93",
-      "target": "57e2421bbddaabb88e8cd9dcd0fdb8f04855566738d63a1c147bb9cbf66b69f5",
-      "action": "protect",
-      "timestamp": 1792435076380
-    }
-  ]
+  "logs": []
 }
