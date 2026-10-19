@@ -1,15 +1,19 @@
 {
-  "updated_at": "2026-10-19T16:29:48.261Z",
-  "total": 1,
-  "hashes": [
-    "23112b3a66051dd427ae6e8789be9b62235b5d9aadb12ac577065ec16abef73b"
-  ],
+  "updated_at": "2026-10-19T16:30:09.065Z",
+  "total": 0,
+  "hashes": [],
   "logs": [
     {
       "ip": "03b14f8576cc3e93",
       "target": "23112b3a66051dd427ae6e8789be9b62235b5d9aadb12ac577065ec16abef73b",
       "action": "protect",
       "timestamp": 1792427388078
+    },
+    {
+      "ip": "03b14f8576cc3e93",
+      "target": "23112b3a66051dd427ae6e8789be9b62235b5d9aadb12ac577065ec16abef73b",
+      "action": "remove",
+      "timestamp": 1792427408879
     }
   ]
 }
