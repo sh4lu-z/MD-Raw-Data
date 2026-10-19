@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.BOT_PAT }} 
 
       - name: Remove logs older than 1 hour
         uses: actions/github-script@v7
@@ -35,8 +37,8 @@ jobs:
 
       - name: Commit if modified
         run: |
-          git config user.name "CIPHER-MD System"
-          git config user.email "no-reply@s4z.top"
+          git config user.name "Syntiox Bot" 
+          git config user.email "no-reply@s4z.top" 
           if [[ -n $(git status -s) ]]; then
             git add protected_numbers.json
             git commit -m "Auto-clean expired protection logs [skip ci]"
