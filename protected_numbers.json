@@ -2,30 +2,5 @@
   "updated_at": "2026-10-19T16:31:13.741Z",
   "total": 0,
   "hashes": [],
-  "logs": [
-    {
-      "ip": "03b14f8576cc3e93",
-      "target": "23112b3a66051dd427ae6e8789be9b62235b5d9aadb12ac577065ec16abef73b",
-      "action": "protect",
-      "timestamp": 1792427388078
-    },
-    {
-      "ip": "03b14f8576cc3e93",
-      "target": "23112b3a66051dd427ae6e8789be9b62235b5d9aadb12ac577065ec16abef73b",
-      "action": "remove",
-      "timestamp": 1792427408879
-    },
-    {
-      "ip": "03b14f8576cc3e93",
-      "target": "23112b3a66051dd427ae6e8789be9b62235b5d9aadb12ac577065ec16abef73b",
-      "action": "protect",
-      "timestamp": 1792427454681
-    },
-    {
-      "ip": "03b14f8576cc3e93",
-      "target": "23112b3a66051dd427ae6e8789be9b62235b5d9aadb12ac577065ec16abef73b",
-      "action": "remove",
-      "timestamp": 1792427473621
-    }
-  ]
+  "logs": []
 }
