@@ -1,8 +1,9 @@
 {
-  "updated_at": "2026-10-20T07:26:07.445Z",
-  "total": 1,
+  "updated_at": "2026-10-20T07:26:18.714Z",
+  "total": 2,
   "hashes": [
-    "57e2421bbddaabb88e8cd9dcd0fdb8f04855566738d63a1c147bb9cbf66b69f5"
+    "57e2421bbddaabb88e8cd9dcd0fdb8f04855566738d63a1c147bb9cbf66b69f5",
+    "2449d96a3e6fa363e5360f29cd6f844a7c93846a4b3c01d8ff74b43246c20cca"
   ],
   "logs": [
     {
@@ -22,6 +23,12 @@
       "target": "2449d96a3e6fa363e5360f29cd6f844a7c93846a4b3c01d8ff74b43246c20cca",
       "action": "remove",
       "timestamp": 1792481167350
+    },
+    {
+      "ip": "03b14f8576cc3e93",
+      "target": "2449d96a3e6fa363e5360f29cd6f844a7c93846a4b3c01d8ff74b43246c20cca",
+      "action": "protect",
+      "timestamp": 1792481178567
     }
   ]
 }
