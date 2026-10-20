@@ -6,36 +6,5 @@
     "2449d96a3e6fa363e5360f29cd6f844a7c93846a4b3c01d8ff74b43246c20cca",
     "85d6dd65bb61c9d30eeabdf1c0848cf4215b4e913afe5077d610f4afc0075641"
   ],
-  "logs": [
-    {
-      "ip": "03b14f8576cc3e93",
-      "target": "2449d96a3e6fa363e5360f29cd6f844a7c93846a4b3c01d8ff74b43246c20cca",
-      "action": "remove",
-      "timestamp": 1792481094273
-    },
-    {
-      "ip": "03b14f8576cc3e93",
-      "target": "2449d96a3e6fa363e5360f29cd6f844a7c93846a4b3c01d8ff74b43246c20cca",
-      "action": "protect",
-      "timestamp": 1792481114188
-    },
-    {
-      "ip": "03b14f8576cc3e93",
-      "target": "2449d96a3e6fa363e5360f29cd6f844a7c93846a4b3c01d8ff74b43246c20cca",
-      "action": "remove",
-      "timestamp": 1792481167350
-    },
-    {
-      "ip": "03b14f8576cc3e93",
-      "target": "2449d96a3e6fa363e5360f29cd6f844a7c93846a4b3c01d8ff74b43246c20cca",
-      "action": "protect",
-      "timestamp": 1792481178567
-    },
-    {
-      "ip": "511d3aab9db5fb71",
-      "target": "85d6dd65bb61c9d30eeabdf1c0848cf4215b4e913afe5077d610f4afc0075641",
-      "action": "protect",
-      "timestamp": 1792482632240
-    }
-  ]
+  "logs": []
 }
