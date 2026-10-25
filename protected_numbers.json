@@ -1,10 +1,18 @@
 {
-  "updated_at": "2026-10-20T07:50:32.399Z",
-  "total": 3,
+  "updated_at": "2026-10-25T18:27:03.666Z",
+  "total": 4,
   "hashes": [
     "57e2421bbddaabb88e8cd9dcd0fdb8f04855566738d63a1c147bb9cbf66b69f5",
     "2449d96a3e6fa363e5360f29cd6f844a7c93846a4b3c01d8ff74b43246c20cca",
-    "85d6dd65bb61c9d30eeabdf1c0848cf4215b4e913afe5077d610f4afc0075641"
+    "85d6dd65bb61c9d30eeabdf1c0848cf4215b4e913afe5077d610f4afc0075641",
+    "91a9420fd57823abcf6cfe93bf3bd55245d528a2277ebc101d69740fb6298a99"
   ],
-  "logs": []
+  "logs": [
+    {
+      "ip": "0dd130fe60f3ae1e",
+      "target": "91a9420fd57823abcf6cfe93bf3bd55245d528a2277ebc101d69740fb6298a99",
+      "action": "protect",
+      "timestamp": 1792952823447
+    }
+  ]
 }
